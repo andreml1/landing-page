@@ -1,0 +1,424 @@
+html {
+    scroll-behavior: smooth;
+    background: #c9c9c9;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background: url("imgIndex/MMTech5.png");
+    background-size: 100% 100%;
+    padding: 140px 0;
+    
+}
+
+.caixa {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+.ul-menu{
+    position: absolute;
+    top: 100px;
+    width: 90%;
+    height: 30px;
+   
+}
+
+.li-menu {
+    display: inline;
+    margin: 0 0 0 1%;
+}
+
+.a-menu {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.a-menu:hover {
+    color: #19c7b0;
+    font-size: 24px;
+}
+
+.div-banner {
+    background: #eeeeee;
+    width: 90%;
+    margin: 40px auto;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    border-radius: 150px;
+    box-shadow: 5px 5px 15px 8px #333333;    
+}
+
+.banner {
+    width: 100%;
+    height: 450px;
+    box-shadow: 5px 5px 15px 8px #333333;
+    border-radius: 150px; 
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    font-weight: bold;
+}
+
+.principal {
+    padding: 3em 0 3em 0;
+    background: #eeeeee;
+    width: 80%;
+    margin: 40px auto;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 8px #333333; 
+}
+
+.principal p {
+    margin: 0 5%;
+}
+
+.p-texto-nos {
+    text-align: justify;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+    box-shadow: 20px 20px 20px #000000;
+}
+
+.pessoas {
+    padding: 3em 0 3em 0;
+    background: #eeeeee;
+    width: 80%;
+    margin: 40px auto;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 8px #333333; 
+}
+
+.p-pessoas {
+    padding-bottom: 15px;
+    text-align: justify;
+    margin: 0 5%;
+}
+
+.h3-pessoas {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.div-equipe {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.equipe {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 20px 20px 20px #000000;
+}
+
+.vagas {
+    padding: 20px 0;
+    background: #eeeeee;
+    width: 50%;
+    margin: 40px auto;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 8px #333333;
+     
+}
+
+.h3-ajuda {
+    margin: 0 0 20px 0;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+     
+}
+
+.h3-ajuda:before {
+    content: "💡 ";
+}
+
+.h3-buscamos {
+    margin: 0 0 20px 0;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+ 
+}
+
+.h3-buscamos:before {
+    content: "🔎 ";
+}
+
+.h3-diferencial {
+    margin: 0 0 20px 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+ 
+}
+
+.h3-diferencial:before {
+    content: "🤩 ";
+}
+
+.h3-final {
+    margin: 0 0 20px 0;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+     
+}
+
+.h3-final:before {
+    content: "🤓 ";
+}
+
+.h3-final:after {
+    content: " 👍";
+}
+
+.h3-final2 {
+    margin: 0 0 20px 0;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+     
+}
+
+.h3-final2:before {
+    content: "💻 ";
+}
+
+.h3-final2:after {
+    content: " 🚀";
+}
+
+.h3-final3 {
+    margin: 0 0 20px 0;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.h3-final3:before {
+    content: "👇 ";
+}
+
+.h3-final3:after {
+    content: " 👇";
+}
+
+.ul-paragrafo-texto {
+    padding-bottom: 30px;
+}
+
+.li-texto {
+    margin: 0 5% 15px 5%;
+    text-align: justify;
+}
+
+.li-texto:before {
+    content: "➾ ";
+}
+
+.imgFullStack {
+    width: 300px;
+    box-shadow: 20px 20px 20px #000000;
+    transition: 1s all;
+    cursor: pointer;
+        
+}
+
+.imgFullStack:hover{
+    transform: scale(1.1);
+}
+
+.imgAnalist {
+    width: 300px;
+    box-shadow: 20px 20px 20px #000000;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.imgAnalist:hover {
+    transform: scale(1.1);
+}
+
+.ul-img-vagas {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+    
+}
+
+.img {
+    display: inline;
+    margin: 20px;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#ececec, #b4b4b4);
+    margin: 20px 0 0 0;
+    box-shadow: 5px 5px 15px 8px #333333; 
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+    box-shadow: 20px 20px 20px #000000;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+footer {
+    background: #000000;
+          
+}
+
+.div-redes-sociais {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.h3-redes {
+    color: #ffffff;
+    padding: 0 0 8px 0;
+    
+}
+
+.ul-redes-sociais {
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    vertical-align: top;
+    padding: 5px 2%;  
+    
+}
+
+.li-redes-sociais {
+    padding: 5px 0;
+    
+    
+}
+
+.a-redes-sociais {
+    color: #ffffff;
+       
+}
+
+.img-instagram {
+    width: 30px;
+    transition: 1s all;
+    cursor: pointer;
+    
+}
+
+.img-instagram:hover {
+    transform: scale(1.3);
+}
+
+.img-linkedin {
+    width: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.img-linkedin:hover {
+    transform: scale(1.3);
+}
+
+.img-youtube {
+    width: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.img-youtube:hover {
+    transform: scale(1.3);
+}
+
+
+.h3-telefone {
+    color: #ffffff;
+    
+}
+
+.h3-telefone:after {
+    content: "  📞";
+        
+}
+
+.h3-ouvidoria {
+    color: #ffffff;
+       
+}
+
+.h3-ouvidoria:after {
+    content: "  📩";
+       
+}
+
+.li-contatos {
+    padding: 5px 0 20px 0;
+    
+}
+
+.a-contatos {
+    color: #ffffff;
+    
+}
+
+.ultima-img {
+    width: 200px;
+    position: relative;
+    left: 56%; 
+    border-radius: 250px;
+    
+}
+
+.p-footer-endereco {
+    color: #ffffff;
+    font-size: 13px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+       
+}
