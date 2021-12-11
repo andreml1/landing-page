@@ -400,6 +400,10 @@ footer {
     body {
         width: fit-content;
     }
+
+    .banner {
+        height: 70%;
+    }
     
     .principal {
         width: 100%;

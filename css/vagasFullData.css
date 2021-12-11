@@ -75,3 +75,24 @@ form label, form legend {
     font-size: 14px;
     line-height: 1.6;
 }
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        height: 140px;
+    }  
+    
+    .img-DataAnalist {
+        width: 80%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .div-footer {
+        justify-content: space-around;
+    }
+}
