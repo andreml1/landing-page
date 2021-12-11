@@ -1,6 +1,6 @@
 # PROJETO LANDING PAGE MMTech.
 
-#### Projeto de uma página web, feito para a empresa MMtech. Contendo sua história, modo de trbalho, equipe, contatos, vagas de emprego e localização da empresa. 
+#### Projeto de uma página web, feito para a empresa MMtech. Contendo sua história, modo de trabalho, equipe, contatos, vagas de emprego e localização da empresa. 
 
 ## Esse projeto encontra-se em desenvolvimento!!!
 
