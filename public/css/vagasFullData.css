@@ -1,0 +1,105 @@
+header {
+    background: url("../images/MMTech2.png");
+    background-size: 100% 100%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+}
+
+body {
+    background: #c9c9c9;
+}
+
+#sobre-nos {
+    margin-bottom: 3em;
+}
+
+.titulo-principal::after {
+    content: " 👇";
+}
+
+.titulo-principal::before {
+    content: "👇 ";
+}
+
+.div-img-DataAnalist {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #c9c9c9;
+}
+
+.img-DataAnalist {
+    width: 40%;
+    height: 40%;
+    box-shadow: 5px 5px 15px 8px #333333;
+    
+}
+
+form {
+    padding: 2em 0;
+    width: 40%;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.alert {
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.trabalho-opções {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.enviar {
+    width: 30%;
+    margin-top: 15px;
+    padding: 15px 0;
+    background: rgb(172, 0, 172);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(75, 0, 75);
+    transform: scale(1.1);
+}
+
+#mensagens-erro {
+	color: red;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        height: 140px;
+    }  
+    
+    .img-DataAnalist {
+        width: 80%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .div-footer {
+        justify-content: space-around;
+    }
+}
